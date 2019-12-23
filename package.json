@@ -1,0 +1,28 @@
+{
+  "name": "brooke-site",
+  "version": "1.0.0",
+  "description": "Brooke Personal Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manchester-Divided/brooke-site.git"
+  },
+  "author": "Chris Huston & Taylor Meyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Manchester-Divided/brooke-site/issues"
+  },
+  "homepage": "https://github.com/Manchester-Divided/brooke-site#readme",
+  "dependencies": {
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
